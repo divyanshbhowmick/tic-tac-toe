@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tic Tac Toe Game</title>
+        <link href="./css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main id="tic_tac_toe">
+            <section id="game_container">
+                <div id="board_container">
+                    <div class="row">
+                        <div
+                            class="col"
+                            data-cell-index="0"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                        <div
+                            class="col"
+                            data-cell-index="1"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                        <div
+                            class="col"
+                            data-cell-index="2"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="col"
+                            data-cell-index="3"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                        <div
+                            class="col"
+                            data-cell-index="4"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                        <div
+                            class="col"
+                            data-cell-index="5"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="col"
+                            data-cell-index="6"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                        <div
+                            class="col"
+                            data-cell-index="7"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                        <div
+                            class="col"
+                            data-cell-index="8"
+                            onclick="handleCellClick(event, this)"
+                        ></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script type="module" src="./js/index.js" defer></script>
+    </body>
+</html>
